@@ -117,14 +117,10 @@ function creat_task(task){
 
     });
 
+    localStorage.setItem("theme", "dark");
     var theme = localStorage.getItem("theme");
-    if(theme != ""){
-        set_theme(theme);
-    }
-    else{
-        var theme = "dark";
-        set_theme(theme);
-    }  
+    set_theme(theme);
+
     theme_button.addEventListener("click", () =>{
         // set_theme(theme);
 
