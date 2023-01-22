@@ -117,7 +117,7 @@ function creat_task(task){
 
     });
 
-    localStorage.setItem("theme", "dark");
+   localStorage.setItem("theme", "dark");
     var theme = localStorage.getItem("theme");
     set_theme(theme);
 
